@@ -38,7 +38,7 @@ export default defineComponent({
     },
     language: {
       type: String,
-      default: 'typescript',
+      default: 'javascript',
     },
     // Initial code to show
     code: {

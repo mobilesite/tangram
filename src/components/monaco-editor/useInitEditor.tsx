@@ -28,7 +28,9 @@ export default function initEditor(props: any, container: any) {
   });
 
   // 自动触发一下格式化代码
-  editor.getAction('editor.action.formatDocument').run();
+  setTimeout(() => {
+    editor.getAction('editor.action.formatDocument').run();
+  }, 100);
 
   // 挂在window上便于调试用
   window.monacoEditor = editor;

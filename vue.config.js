@@ -6,11 +6,11 @@ module.exports = {
       .plugin('monaco-editor-webpack-plugin')
       .use(new MonacoEditorWebpackPlugin({
         languages: [
-          'typescript',
+          // 'typescript',
           'javascript',
           'css',
-          'html',
-          'json'
+          // 'html',
+          'json',
         ],
         features: [
           // 'accessibilityHelp',
